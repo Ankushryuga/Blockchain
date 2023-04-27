@@ -1,0 +1,17 @@
+npm install --save-dev hardhat   or npm install hardhat           // install hardhat for ethereum
+
+
+npx hardhat                           // initializing build enviorment for smart contract
+
+
+// installing hardhat dependecy
+npm install --save-dev "@nomicfoundation/hardhat-network-helpers@^1.0.0" "@nomicfoundation/hardhat-chai-matchers@^1.0.0" "@nomiclabs/hardhat-ethers@^2.0.0" "@nomiclabs/hardhat-etherscan@^3.0.0" "@types/chai@^4.2.0" "@types/mocha@>=9.1.0" "@typechain/ethers-v5@^10.1.0" "@typechain/hardhat@^6.1.2" "chai@^4.2.0" "hardhat-gas-reporter@^1.0.8" "solidity-coverage@^0.8.1" "ts-node@>=8.0.0" "typechain@^8.1.0" "typescript@>=4.5.0"
+
+
+
+//installing hardhat toolbox
+npm install --save-dev "hardhat@^2.14.0" "@nomicfoundation/hardhat-toolbox@^2.0.0
+
+
+//runing on goeril test network
+npx hardhat run scripts/deploy.js --network goerli
