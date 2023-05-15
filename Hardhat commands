@@ -10,7 +10,7 @@ npm install --save-dev "@nomicfoundation/hardhat-network-helpers@^1.0.0" "@nomic
 
 
 //installing hardhat toolbox
-npm install --save-dev "hardhat@^2.14.0" "@nomicfoundation/hardhat-toolbox@^2.0.0
+npm install --save-dev "hardhat@^2.14.0" "@nomicfoundation/hardhat-toolbox@^2.0.0"
 
 
 //runing on goeril test network
